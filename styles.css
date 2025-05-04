@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+p{
+  font-size: 0.9em;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'sans serif';
+}
+.container{
+  max-width: width: 80%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* first layer of cards */
+
+.pack1 {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.quote1 {
+  position: relative;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 18px;
+}
+.triangle {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  z-index: -1;
+}
+
+.card2 {
+  border: 2px solid black;
+  padding: 18px;
+  border-radius: 15px;
+}
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+img {
+  padding
+}
+/* second layer of cards */
+
+.pack2 {
+  display: grid;
+  grid-template-columns: 25% 65%;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.pack2 img {
+  margin: auto;
+}
+.material-icons {
+  letter-spacing: -4px;
+  color:  orange;
+}
+.card3 {
+  background-color: black;
+  color: white;
+  border-radius: 18px;
+  padding: 15px;
+}
+.quote3 h4 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.prole2 {
+  color: gray;
+}
+.pack3 {
+  width: calc(90% +  10px);
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 15px;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr;
+  margin: auto;
+}
+.icongal {
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .centername {
+  display: flex;
+  flex-direction: column;
+} */
+
+#img1 {
+  filter: blur(2px);
+}
+#img2 {
+  filter: opacity(50%);
+}
+
+.icongal a{
+  padding: 8px 16px;
+}
+.icongal a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.round {
+  border-radius: 50%;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  margin-right: 30px;
+}
+.next {
+  background-color: #f1f1f1;
+  color: black;
+  margin-left: 30px;
+}
+.quote4 {
+  padding: 30px;
+}
+
+.nameprof {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
